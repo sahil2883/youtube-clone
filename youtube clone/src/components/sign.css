@@ -1,0 +1,43 @@
+.box{
+    width: 40%;
+    margin:auto;
+    margin-top: 10%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.685);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box h3{
+    border-bottom: 2px solid black;
+}
+
+body{
+   background-color: rgb(185, 185, 244);
+}
+
+.icons-form{
+    background-color:rgb(38, 85, 123);
+    color: white;
+    font-size: 20px;
+    height: 38px;
+    width: 40px;
+    padding: 10px;
+}
+
+.form-control{
+    position: relative !important;
+    width:95% !important;
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+@media(max-width: 768px){
+    .box{
+        width: 90%;
+    }
+}
+
+
+.form-control:focus{
+    box-shadow: none !important;
+}
